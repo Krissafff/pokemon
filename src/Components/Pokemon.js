@@ -13,13 +13,6 @@ const Pokemon = (props) => {
             <td className="img"><img alt={pokemon.name} src={pokemon.sprites.front_default} className="pokemon-image m-1" /></td>
             <td className="id"><div className="">#{pokemon.id}</div></td>
             <td className="nome"><a href="" className="link"><h5 className="nome color-gradient">{pokemon.name}</h5></a></td>
-            <td className="poder">{pokemon.types.map((type, index) => {
-              return(
-                <div key={index} className="">
-                  {type.type.name}
-                </div>
-              )
-              })}</td>
           </tr>
         </tbody>
         </table>

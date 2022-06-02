@@ -21,7 +21,7 @@ const Pokedex = (props) => {
                     <thead>
                         <tr className="iD">ID</tr>
                         <tr className="Nome">Name</tr>
-                        <tr className="Url">Power</tr>
+
                     </thead>
                 </table>
                 <Pagination 
