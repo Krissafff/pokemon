@@ -781,6 +781,17 @@
   margin-left: 13rem;
 }
 
+.gif {
+  position: absolute;
+  width: 100px;
+  top: 39rem;
+  right: 3rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
